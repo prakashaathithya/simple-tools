@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DevTools — Simple Online Tools</title>
+<meta name="description" content="A collection of small, fast, offline developer tools: text compare, base64, JSON formatter and more.">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧰</text></svg>">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark">🧰</span>
+      <span class="brand-text">Dev<strong>Tools</strong></span>
+    </a>
+    <div class="search-box">
+      <input id="search" type="search" placeholder="Search tools…   (press /)" autocomplete="off" spellcheck="false">
+    </div>
+    <button id="theme-toggle" class="icon-btn" title="Toggle light / dark" aria-label="Toggle theme">◐</button>
+  </div>
+</header>
+
+<main class="wrap" id="app"></main>
+
+<footer class="wrap footer">
+  Everything runs locally in your browser — nothing is uploaded.
+</footer>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/core.js"></script>
+<script src="assets/js/tools/text-compare.js"></script>
+<script src="assets/js/tools/base64.js"></script>
+<script src="assets/js/tools/json-format.js"></script>
+<script src="assets/js/tools/url-encode.js"></script>
+<script src="assets/js/tools/hash.js"></script>
+<script src="assets/js/tools/case-convert.js"></script>
+<script src="assets/js/tools/uuid.js"></script>
+<script src="assets/js/tools/word-count.js"></script>
+<script src="assets/js/tools/timestamp.js"></script>
+<script src="assets/js/tools/color-convert.js"></script>
+<script src="assets/js/tools/regex-tester.js"></script>
+<script src="assets/js/tools/lorem.js"></script>
+<script>Tools.start();</script>
+</body>
+</html>
