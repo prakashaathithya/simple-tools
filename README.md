@@ -23,6 +23,7 @@ Just open `index.html` in a browser. (Optionally serve it: `npx serve .` or `pyt
 | 🎨 Color Converter | HEX ⇄ RGB ⇄ HSL, shade ramp, contrast ratios |
 | `.*` Regex Tester | Live matches, capture groups, named groups |
 | 📝 Lorem Ipsum Generator | Paragraphs, sentences, words or list items |
+| 🏦 EMI Calculator | EMI from a rate, or the rate from an EMI, plus amortization |
 
 ## Layout
 

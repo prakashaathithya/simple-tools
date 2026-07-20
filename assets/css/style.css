@@ -164,6 +164,13 @@ button.btn.primary:hover { filter: brightness(1.08); }
 .list { font-family: var(--mono); font-size: 13.5px; }
 .list div { padding: 3px 0; border-bottom: 1px dashed var(--border); }
 
+.table { width: 100%; border-collapse: collapse; font-family: var(--mono); font-size: 13px; }
+.table th, .table td { padding: 7px 12px; text-align: left; white-space: nowrap; }
+.table th { color: var(--muted); font-weight: 500; font-size: 12px; text-transform: uppercase; letter-spacing: .4px; border-bottom: 1px solid var(--border); }
+.table td { border-bottom: 1px dashed var(--border); }
+.table td.num, .table th:not(:first-child) { text-align: right; }
+.table tbody tr:hover { background: var(--card-hover); }
+
 .footer { color: var(--muted); font-size: 12.5px; padding: 20px 0 32px; border-top: 1px solid var(--border); }
 
 .toast {
