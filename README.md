@@ -24,6 +24,8 @@ Just open `index.html` in a browser. (Optionally serve it: `npx serve .` or `pyt
 | `.*` Regex Tester | Live matches, capture groups, named groups |
 | 📝 Lorem Ipsum Generator | Paragraphs, sentences, words or list items |
 | 🏦 EMI Calculator | EMI from a rate, or the rate from an EMI, plus amortization |
+| 📈 SIP Calculator | Future value of a monthly SIP, with optional annual step-up |
+| 📉 SWP Calculator | How long a corpus lasts under fixed monthly withdrawals |
 
 ## Layout
 
