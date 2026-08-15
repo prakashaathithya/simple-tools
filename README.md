@@ -26,6 +26,7 @@ Just open `index.html` in a browser. (Optionally serve it: `npx serve .` or `pyt
 | 🏦 EMI Calculator | EMI from a rate, or the rate from an EMI, plus amortization |
 | 📈 SIP Calculator | Future value of a monthly SIP, with optional annual step-up |
 | 📉 SWP Calculator | How long a corpus lasts under fixed monthly withdrawals |
+| ⚡ TN EB Bill Calculator | Tamil Nadu electricity bill on the current TANGEDCO domestic tariff, slab by slab |
 
 ## Layout
 
